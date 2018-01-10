@@ -1,0 +1,111 @@
+
+#socialnet,#socialnet1,#socialnet2,#socialnet3
+{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+}
+#cp
+{
+    padding-left: 18%;
+}
+#create, #login
+{
+
+    width: 30%;
+    border: solid 1px darkgreen;
+    background-color: #d4edda;
+    margin: 5% 30% 5% 35%;
+    padding: 1%;
+    border-radius: 5px;
+
+}
+.crt, .log
+{
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+#btncrt, #btnlog,#btntopic
+{
+    background-color: #218838;
+    padding: 1%;
+}
+.log_create
+{
+    padding: 10%;
+}
+.hm
+{
+    padding-left: 45%;
+}
+#tbl_discussion,#tbl_recent,#tbl_popular
+{
+    width: 100%;
+
+    text-align: center;
+}
+#piclbl/*design part of picture lebel in create contact page*/
+{
+    background-color: cornflowerblue;
+    border: 1px solid grey;
+    text-align: center;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+td{
+    padding: 10px;
+    text-align: center;
+
+    font-size: large;
+    font-weight: bold;
+}
+
+img{
+    height:150px;
+    width: 200px;
+    image-orientation: from-image;
+    border-radius:50%;
+}
+.viewtable
+{
+    width: 75%;
+    margin-left: 12.5%;
+
+}
+a{
+    padding-right: 10px;
+}
+.row
+{
+    height:700px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: 3em;
+}
+footer {
+    background: #f9f9fa;
+    padding: 10px 0;
+
+}
+footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+}
+footer a:first-child {
+    border-left: 1px solid #70726F;
+}
+footer a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
